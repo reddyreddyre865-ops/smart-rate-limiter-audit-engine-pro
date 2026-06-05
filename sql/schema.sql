@@ -1,0 +1,6 @@
+
+CREATE TABLE tenant(
+ id INT PRIMARY KEY AUTO_INCREMENT,
+ tenant_name VARCHAR(100),
+ tier VARCHAR(20)
+);
